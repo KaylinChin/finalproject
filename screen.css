@@ -12,6 +12,20 @@ h2 {
     font-size: 25px;
 }
 
+/* view.html */
+.details {
+    flex-grow: 1;
+    font-size: 25px;
+    padding: 25px;
+    margin: 25px;
+    background-color: #827f7b;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* css for adding a new vinyl on website (not 100% functional with the submit button for storing information */
 .addnewflex {
     padding: 25px;
