@@ -8,15 +8,65 @@ body {
     background: #fff;
 }
 
-.form {
-    display: flex;
-    gap: 25px;
-    margin: 25px;
-    justify-content: baseline;
-}
-
 .addnewflex {
-    display: flex;
     padding: 25px;
     margin: 25px;
+    background-color: #a79e8f;
+}
+
+.addnewflex2 {
+    padding: 25px;
+    margin: 25px;
+    background-color: #a79e8f;
+}
+
+.newflex {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.form {
+    flex-grow: 1;
+    font-size: 25px;
+    background-color: #777672;
+    padding: 25px;
+    margin: 25px
+}
+
+input[type=text] {
+    display: block;
+    background-color: #fff;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    display: block;
+    width: 600px;
+    resize: vertical;
+    height: 200;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+form {
+    padding: 10px;
+    margin: 10px
+}
+
+select {
+    display: block;
+    width: 625px;
+    resize: vertical;
+    height: 200;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
 }
