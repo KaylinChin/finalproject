@@ -16,44 +16,55 @@
         <li><a href="view.html">View</a></li>
       </ul>
     </nav>
-    <img src="Images/1" width="820" alt="front of vinly jacket">
-    <div class="form">
-      <form>
-        <label>
-          Album Name:
-        </label>
-          <input type="text" id="AlbumName" name="Album Name" required>
-        <label>
-            Artist:
-            <input type="text" id="Artist" name="Arist" required>
-        </label>
-        <button>Done</button>
-      </form>
-      <form>
-        <label>
-            Variant:
+    <div class="addnewflex">
+      <article class="image front jacket">
+        <h2> Add New Images</h2>
+        <p><img src="Images/1.png" width="400" alt="front of vinly jacket"></p>
+        <p><img src="Images/2.png" width="400" alt="front of vinly jacket"></p>
+    </article>
+      <div class="form">
+        <form>
+          <label>
+            Album Name:
+          </label>
+            <input type="text" id="AlbumName" name="Album Name" required>
+          <label>
+              Artist:
+              <input type="text" id="Artist" name="Arist" required>
+          </label>
+          <button>Done</button>
+        </form>
+        <form>
+          <label>
+              Variant:
+              <input type="text">
+          </label>
+          <label>
+            Price
+            <input type="text">
+          </label>
+          <label>
+            Album Release:
             <input type="text">
         </label>
-        <label>
-          Price
-          <input type="text">
-        </label>
-        <label>
-          Album Release:
-          <input type="text">
-      </label>
-        <label>Size:</label>
-        <select id="size" name="size">
-            <option>7"</option>
-            <option>10"</option>
-            <option selected>12"</option>
-            <option>14"</option>
-        </select>
-        <label>Comments:</label>
-        <textarea id="comments">
-        </textarea>
-        <button>Done</button>  
-    </form>
-  </div>
+          <label>Size:</label>
+          <select id="size" name="size">
+              <option>7"</option>
+              <option>10"</option>
+              <option selected>12"</option>
+              <option>14"</option>
+          </select>
+          <label>Comments:</label>
+          <textarea id="comments">
+          </textarea>
+          <button>Done</button>  
+      </form>
+    </div>
+    <article class="image back jacket">
+      <h2> Add New Images back</h2>
+      <p><img src="Images/3.png" width="400" alt="inside of vinyl jacket"></p>
+      <p><img src="Images/4.png" width="400" alt="Back of vinyl jacket"></p>
+  </article>
+</div>
   </body>
 </html>

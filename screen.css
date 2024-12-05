@@ -11,4 +11,12 @@ body {
 .form {
     display: flex;
     gap: 25px;
+    margin: 25px;
+    justify-content: baseline;
+}
+
+.addnewflex {
+    display: flex;
+    padding: 25px;
+    margin: 25px;
 }
