@@ -1,4 +1,14 @@
 /* Add screen styles below */
-a.active {
-    font-family: 'Times New Roman', Times, serif;
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #231e1a;
+    border-top: 10px solid #6f6a66;
+    background: #fff;
+}
+
+.form {
+    display: flex;
+    gap: 25px;
 }
