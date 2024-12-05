@@ -8,16 +8,23 @@ body {
     background: #fff;
 }
 
+h2 {
+    font-size: 25px;
+}
+
+/* css for adding a new vinyl on website (not 100% functional with the submit button for storing information */
 .addnewflex {
     padding: 25px;
     margin: 25px;
     background-color: #a79e8f;
+    border-radius: 20px;
 }
 
 .addnewflex2 {
     padding: 25px;
     margin: 25px;
     background-color: #a79e8f;
+    border-radius: 20px;
 }
 
 .newflex {
@@ -29,9 +36,10 @@ body {
 .form {
     flex-grow: 1;
     font-size: 25px;
-    background-color: #777672;
     padding: 25px;
-    margin: 25px
+    margin: 25px;
+    background-color: #827f7b;
+    border-radius: 20px;
 }
 
 input[type=text] {
@@ -69,4 +77,20 @@ select {
     margin: 10px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+/* adding sticky header*/
+.stickynav {
+    position: sticky;
+    top: 0;
+    background: #e1b7b2;
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* home.html css */
+.list {
+    font-size: 25px;
 }
