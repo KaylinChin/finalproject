@@ -108,3 +108,42 @@ select {
 .list {
     font-size: 25px;
 }
+
+/* about.html css */
+.aboutthesite {
+    display: flex;
+    background-color: #fff;
+    margin: 10px;
+    gap: 25px;
+    padding: 10px;
+    
+}
+
+.aboutthesite section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-color: #fff;
+    border: solid #231e1a;
+    display: inline-flex;
+}
+
+.aboutthesite section p{
+    margin: 20px;
+}
+
+.aboutthesite section h2{
+    margin: 20px;
+}
+
+.aboutthesite section h3{
+    margin: 20px;
+    font-size: 25px;
+}
+
+.decor {
+    display: flex;
+    margin-left: 260px;
+}
