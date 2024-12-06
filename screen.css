@@ -8,6 +8,11 @@ body {
     background: #fff;
 }
 
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
 h2 {
     font-size: 25px;
 }
@@ -147,3 +152,26 @@ select {
     display: flex;
     margin-left: 260px;
 }
+
+/* responsive design h1 and img are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    background-color: lightgrey;
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 1401px) {
+    h1 {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 1400) {
+    h1 {
+      font-size: 30px;
+    }
+  }
